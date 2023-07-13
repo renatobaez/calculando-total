@@ -2,6 +2,6 @@
 Desafío - Calculando el total
 
 Trabajo en grupo con:
-Felipe Morua
+Felipe Morua y
 Angello Orrego
 
