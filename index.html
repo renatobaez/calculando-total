@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculando el Total</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <main>
+    <section class="card">
+      <img src="./assets/img/1024.png" alt="laptop gamer amd">
+      <div class="card-body">
+        <p class="text-title">Laptop Gamer AMD</p>
+        <p><input type="text" name="quantity" id="quantity" placeholder="Cantidad"></p>
+        <p><input type="text" name="color" id="color" placeholder="Color"></p>
+        <p class="text-price">Precio: <span class="price">400000</span></p>
+      </div>
+      <div class="card-footer">
+        <button class="button-total" onclick="cal()">Calcular Total</button>
+      </div>
+    </section>
+    <section class="shopping-cart">
+      <p>Total: $<span class="cart-price">0</span></p>
+      <p>Cantidad: <span class="cart-quantity">0</span></p>
+      <div class="shopping-color">Color: <div class="cart-color"></div></div>
+    </section>
+  </main>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
