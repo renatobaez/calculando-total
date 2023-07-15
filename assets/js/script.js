@@ -1,6 +1,5 @@
 function cal(){
   quantity = document.querySelector("#quantity")
-  if (quantity.value < 1) { quantity.value == 0 }
   color = document.querySelector("#color")
   price = document.querySelector("p .price")
   total = new Intl.NumberFormat("de-DE").format(price.innerHTML * quantity.value)
